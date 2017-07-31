@@ -19,13 +19,12 @@ class AlbumList extends Component {
   }
 
   render() {
-
     return (
       <View>
         {this.renderAlbums()}
       </View>
     )
-  }
+  };
 }
 
 export default AlbumList;
